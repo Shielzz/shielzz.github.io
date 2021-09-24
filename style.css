@@ -1,0 +1,100 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+}
+header li {
+    text-decoration: none;
+    list-style: none;
+}
+
+#white-space {
+    height: 7rem;
+}
+
+#logo {
+  max-width: 200px;
+  top: 0;
+  left: 0;
+} 
+
+h2 {
+  color: #E16C54;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+}
+
+h3 {
+  color: #0A544F;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+}
+
+.title-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+
+/* jumbotron */
+
+
+.jumbotron{
+  background-image: url("https://images.unsplash.com/photo-1515926111331-914f447f680e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+}
+.jumbotron .text-center h1{
+  text-shadow: 2px 2px #0A544F;
+}
+.display-4{
+  padding-top: 10rem;
+  color: #E78445;
+}
+
+.btn-primary {
+  background-color: #E16C54;
+  border-color: #E16C54;
+}
+
+.btn-primary:hover {
+  color: #0A544F;
+  background-color: #F6C81B;
+  border-color: #F6C81B;
+}
+
+
+/* CARDS */
+
+/* Footer */
+.container-footer{
+  padding-top: 30px;
+ 
+  background-color: rgba(10, 84, 79, 0.8);
+  border-top: 0.5px solid gray;
+}
+.container-footer p{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.container-footer i{
+  padding: 10px;
+}
+.container-footer .pg-color{
+  color: white;
+  font-weight: lighter;
+}
